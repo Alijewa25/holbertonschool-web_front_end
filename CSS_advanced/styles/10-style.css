@@ -1,0 +1,29 @@
+:root {
+    /* ... əvvəlki dəyişənlər ... */
+    --line-height-big: 1.8;
+    --section-header-align: center; /* 1. Bunu əlavə etdik */
+}
+
+/* ... html, body, a və s. kodların ... */
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+/* 2. .section-tagline-dan tam yuxarıda bunu yaratdıq */
+.section-header {
+    text-align: var(--section-header-align);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
