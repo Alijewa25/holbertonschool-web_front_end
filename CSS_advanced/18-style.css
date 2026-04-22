@@ -8,16 +8,19 @@
     --nav-item-link-hover: var(--color-primary);
 }
 
+/* NAV RESET */
 .nav {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.navbar-menu {
+/* MENU (FIXED NAME) */
+.nav-menu {
     float: right;
 }
 
+/* ITEMS */
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -27,11 +30,13 @@
     margin: var(--nav-item-margin);
 }
 
+/* LINKS */
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
 }
 
+/* HOVER */
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
