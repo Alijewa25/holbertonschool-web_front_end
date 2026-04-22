@@ -11,7 +11,7 @@
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 calc(3 * var(--root-element)) 0;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
 
@@ -36,7 +36,7 @@
   padding: var(--footer-padding);
 }
 
-/* Task 18 additions */
+/* Navbar */
 
 .navbar-menu {
   float: right;
@@ -60,7 +60,7 @@
 
 .nav .nav-link {
   display: block;
-  padding: calc(0.5 * var(--root-element)) var(--root-element);
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
