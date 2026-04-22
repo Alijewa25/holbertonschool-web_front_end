@@ -8,19 +8,20 @@
     --nav-item-link-hover: var(--color-primary);
 }
 
-/* NAV RESET */
+/* NAV */
 .nav {
     margin: 0;
     padding: 0;
     text-align: center;
+    list-style: none;
 }
 
-/* MENU (FIXED NAME) */
-.nav-menu {
+/* NAV MENU (IMPORTANT: navbar-menu is correct per task) */
+.navbar-menu {
     float: right;
 }
 
-/* ITEMS */
+/* NAV ITEM */
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -30,10 +31,10 @@
     margin: var(--nav-item-margin);
 }
 
-/* LINKS */
+/* NAV LINK */
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: calc(1rem / 2) 1rem;
 }
 
 /* HOVER */
