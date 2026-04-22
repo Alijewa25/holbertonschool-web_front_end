@@ -1,0 +1,24 @@
+:root {
+    /* ... digərləri ... */
+    --line-height-big: 1.8;
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
+}
+
+/* ... html, body, a, .visually-hidden, .card-category ... */
+
+.section-header {
+    text-align: var(--section-header-align);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
