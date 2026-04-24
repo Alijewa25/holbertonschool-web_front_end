@@ -3,3 +3,15 @@
   --section-title-color: var(--color-white);
   background: var(--color-black);
 }
+
+.footer-address {
+  color: var(--text-color);
+}
+
+.social-link {
+  display: block;
+}
+
+.social-link > svg {
+  fill: var(--text-color);
+}
